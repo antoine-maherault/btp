@@ -1,3 +1,7 @@
+
+/*////////// **************** ACCUEIL.HTML **************** //////////*/
+
+
 /*////////// Apply to whole page //////////*/
 
 * {
@@ -266,7 +270,29 @@ footer {
 
 }
 
+/*////////// **************** CONTACT.HTML **************** //////////*/
 
+.info_container{
+  display : flex;
+  flex-direction : row;
+}
+.contact_info_container{
+  height : 400px;
+  width : 1200px;
+  background-color : blue;
+}
+
+.contact_form_container{
+  height : 400px;
+  width : 100%;
+  background-color : red;
+}
+
+.info_container{
+  height : 400px;
+  width : 100%;
+  background-color : wh;
+}
 
 
  
