@@ -1,3 +1,7 @@
+
+/*////////// **************** ACCUEIL.HTML **************** //////////*/
+
+
 /*////////// Apply to whole page //////////*/
 
 * {
@@ -107,7 +111,7 @@
   height : 400px;
   width : 100%;
   background-color : #efe4da;
-  margin :15px 0px 0px;
+  margin-top: 15px;
   font-family : montserrat;
 }
 
@@ -145,7 +149,7 @@ iframe{
 
 
 footer {
-  background-color:#808080;
+  background-color:rgb(14, 11, 11);
   font-size:15px;
   height : 100px;
   padding-top : 30px;
@@ -164,6 +168,7 @@ footer {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .parede{
   font-family : Anton ;
   font-size: 30px;
@@ -172,13 +177,18 @@ footer {
   font-family : Montserrat ;
   font-size: 20px;
 >>>>>>> 609d10c48977ec51bfe77f5c28ef4c91141e79e6
+=======
+
+.parede{
+  font-family : Anton ;
+  font-size: 30px;
+>>>>>>> 258467eade5850ab81b67c07092fdbabe9eae9aa
   text-align : left;
-  color : black;
+  color : white;
   align-items: center;
   text-align : center;  
   justify-content : center;
   padding-left : 30px;
-  font-weight: bold;
   }
   
 
@@ -209,10 +219,12 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .sitemap a {
     display: none;
   }
  
+
 }
 
 /* Social */
@@ -272,8 +284,22 @@ footer {
 
 }
 
+/*////////// **************** CONTACT.HTML **************** //////////*/
 
+.info_container{
+  display : flex;
+  flex-direction : row;
+}
+.contact_info_container{
+  height : 400px;
+  width : 1200px;
+  /* background-color : blue; */
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
 
+<<<<<<< HEAD
 /*carrousel mathieu*/
 div#slider figure {
   position: relative;
@@ -340,3 +366,53 @@ div#slider figure {
 }
 
  
+=======
+.contact_form_container{
+  height : 400px;
+  width : 100%;
+  padding: 20px;
+
+}
+
+.contact_info{
+  background-color : white;
+  height : 300px;
+  width : 400px;
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  text-align: center;
+  line-height: 22px;
+}
+
+/* Contact_form */
+
+ 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+>>>>>>> 25fb15fe93a0608a4965a1a42da5706e3f9b9d8f
