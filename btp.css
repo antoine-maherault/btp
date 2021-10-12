@@ -206,12 +206,10 @@ footer {
  color : rgb(197, 196, 196);
 }
 
-@media screen and (max-width: 1200px) {
 @media screen and (max-width: 1000px) {
   .sitemap a {
     display: none;
   }
- 
 
 }
 
