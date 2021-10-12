@@ -167,10 +167,22 @@ footer {
   width : 15%;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.parede{
+  font-family : Anton ;
+  font-size: 30px;
+=======
+#parede{
+  font-family : Montserrat ;
+  font-size: 20px;
+>>>>>>> 609d10c48977ec51bfe77f5c28ef4c91141e79e6
+=======
 
 .parede{
   font-family : Anton ;
   font-size: 30px;
+>>>>>>> 258467eade5850ab81b67c07092fdbabe9eae9aa
   text-align : left;
   color : white;
   align-items: center;
