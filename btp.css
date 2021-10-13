@@ -370,10 +370,13 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-
 /*////////// **************** REALISATIONS.HTML **************** //////////*/
 
 
+
+
+
+/*////////// **************** carrousel **************** //////////*/
 
 div#slider figure {
   position: relative;
@@ -428,7 +431,6 @@ div#slider figure {
   animation: 40s slidy infinite;
   margin-top:20px;
 }
-
 .mh1{
   font-family: "Gill Sans", sans-serif;
   color: darkgray;
@@ -461,7 +463,6 @@ div#slider figure {
   transition: 0.3s;
   border-radius: 5px;
   height: 200px;
-}
 
 .container {
   width: 450px;
@@ -476,7 +477,7 @@ div#slider figure {
   width: 400px;
   object-fit: cover;
 }
-
+  
 .bigContainer{
   display: flex;
   flex-wrap: wrap;
@@ -518,7 +519,6 @@ div#slider figure {
   margin-right: 300px;
   margin-left: 300px;
   margin-top : 20px;
-
 }
 
 
@@ -532,4 +532,47 @@ div#slider figure {
   display : flex;
   flex-direction   : column;
   justify-content: center;
+}
+
+#shapeEquipe{
+
+  background-color : #efe4da;
+  margin-top: 25px;
+  font-family : montserrat;
+
+}
+
+/*////////// **************** Presentation page **************** //////////*/
+
+
+.containerPres{
+padding: 30px;
+  display: flex;
+  gap: 150px;
+}
+
+.titrePres{
+  font-size: 25px;
+  text-align: left;
+
+
+}
+.textePres{
+  background-color: white;
+  display: flex;
+  justify-content: right;
+  font-size: 20px;
+  font-family: arial;
+}
+.nomPres{
+  text-align: center;
+  font-size: 40px;
+}
+.card2 {
+
+  display: flex;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: 300px;
 }
