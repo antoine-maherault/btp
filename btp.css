@@ -62,8 +62,6 @@
 .topnav a:hover {
 opacity : 0.5;
 
-
-
 }
 
 /* Responsive Topnav */
@@ -92,20 +90,6 @@ opacity : 0.5;
 
 }
 @media screen and (max-width: 1200px) {
-  /* .topnav.responsive {
-    position: relative;
-    display : block;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  } */
 
   .topnav.responsive .icon {
     margin-top : -200px;
@@ -116,7 +100,6 @@ opacity : 0.5;
     flex-direction : column;
   }
 }
-
 
 
 /*////////// Style the background //////////*/
@@ -140,15 +123,34 @@ opacity : 0.5;
   background-position :fixed;
 }
 
-
 /*////////// Style the grey shape //////////*/
 
 #shape1{
-  height : 400px;
+  height : 180px;
   width : 100%;
   background-color : #efe4da;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom:5px;
   font-family : montserrat;
+  text-align : center;
+}
+
+#shape1 h2 {
+  padding-top : 60px;
+  font-family : Anton;
+  font-weight : lighter;
+  font-size : 30px;
+}
+
+#shape1 a {
+  color : #f3c70f;
+}
+
+#shape1 a:visited {
+  /* color:rgb(138, 138, 241); */
+  color : #f3c70f;
+
+
 }
 
 /*////////// Style the map //////////*/
@@ -246,8 +248,7 @@ footer {
   .sitemap a {
     display: none;
   }
-
-}
+  }
 
 /* Social */
 
@@ -370,9 +371,17 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+#shape6{
+  height : 400px;
+  width : 100%;
+  background-color : #efe4da;
+  margin-top: 10px;
+  margin-bottom:5px;
+  font-family : montserrat;
+}
+
 
 /*////////// **************** REALISATIONS.HTML **************** //////////*/
-
 
 
 div#slider figure {
@@ -391,7 +400,8 @@ div#slider figure img {
 }
 
 div#slider {
-  width: 100%;
+  width: 95%;
+  margin-left:2.3%;
   height: 600px;
   overflow: hidden }
   @keyframes slidy {
@@ -428,7 +438,6 @@ div#slider figure {
   animation: 40s slidy infinite;
   margin-top:20px;
 }
-
 .mh1{
   font-family: "Gill Sans", sans-serif;
   color: darkgray;
@@ -445,7 +454,7 @@ div#slider figure {
 }
 
 #shape3{
-  height : 50px;
+  height : 30px;
   width : 100%;
   background-color : #efe4da;
   margin-top: 15px;
@@ -460,8 +469,7 @@ div#slider figure {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
   border-radius: 5px;
-  height: 200px;
-}
+  height: 200px;}
 
 .container {
   width: 450px;
@@ -476,7 +484,7 @@ div#slider figure {
   width: 400px;
   object-fit: cover;
 }
-
+  
 .bigContainer{
   display: flex;
   flex-wrap: wrap;
@@ -518,13 +526,10 @@ div#slider figure {
   margin-right: 300px;
   margin-left: 300px;
   margin-top : 20px;
-
 }
 
-
-
 #shape4{
-  height : 400px;
+  height : 300px;
   width : 100%;
   background-color : #efe4da;
   margin-top: 15px;
@@ -533,3 +538,52 @@ div#slider figure {
   flex-direction   : column;
   justify-content: center;
 }
+
+#shapeEquipe{
+
+  background-color : #efe4da;
+  margin-top: 25px;
+  font-family : montserrat;
+}
+
+.containerPres{
+  padding: 30px;
+  display: flex;
+  gap: 150px;
+}
+
+.titrePres{
+  font-size: 25px;
+  text-align: left;
+}
+
+.textePres{
+  background-color: white;
+  display: flex;
+  justify-content: right;
+  font-size: 20px;
+  font-family: arial;
+}
+
+.nomPres{
+  text-align: center;
+  font-size: 40px;
+}
+
+.card2 {
+
+  display: flex;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: 300px;
+}
+
+@media screen and (max-width: 900px) {
+  .presentation p {
+    display: none;
+  }
+  .presentation h3 {
+    display: none;
+  }
+  }
