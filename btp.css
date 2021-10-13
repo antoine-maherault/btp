@@ -1,4 +1,3 @@
-
 /*////////// **************** ACCUEIL.HTML **************** //////////*/
 
 
@@ -8,7 +7,6 @@
   box-sizing: border-box;
   margin : 0;
 }
-
 
 /*//////////   Style the header  //////////*/
 
@@ -203,7 +201,6 @@ footer {
   width : 15%;
 }
 
-
 .parede{
   font-family : Anton ;
   font-size: 30px;
@@ -215,7 +212,6 @@ footer {
   padding-left : 30px;
   }
   
-
 /* Sitemap */
 
 .sitemap{
@@ -249,7 +245,6 @@ footer {
   }
 
 /* Social */
-
 
 .social{
   display : flex;
