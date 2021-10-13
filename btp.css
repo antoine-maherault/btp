@@ -92,20 +92,6 @@ opacity : 0.5;
 
 }
 @media screen and (max-width: 1200px) {
-  /* .topnav.responsive {
-    position: relative;
-    display : block;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  } */
 
   .topnav.responsive .icon {
     margin-top : -200px;
@@ -462,7 +448,7 @@ div#slider figure {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
   border-radius: 5px;
-  height: 200px;
+  height: 200px;}
 
 .container {
   width: 450px;
